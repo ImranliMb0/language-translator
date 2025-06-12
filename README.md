@@ -36,14 +36,17 @@ Language barriers can create communication gaps, limit access to information, an
 
 ## 📸 Screenshots
 
-![Screenshot of Translator App](https://user-images.githubusercontent.com/your-username/translator-screenshot.png)
+![Screenshot of Translator App](![image](https://github.com/user-attachments/assets/4ffb5f15-a844-4086-bcf4-ceb040dc8726)
+)
 
 ---
 
 ## 🛠️ Built With
 
 streamlit
+
 gtts
+
 deep-translator
 
 
