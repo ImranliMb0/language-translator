@@ -42,12 +42,10 @@ Language barriers can create communication gaps, limit access to information, an
 
 ## 🛠️ Built With
 
-- [Streamlit](https://streamlit.io/)
-- [Googletrans](https://pypi.org/project/googletrans/)
-- [gTTS - Google Text-to-Speech](https://pypi.org/project/gTTS/)
-- Python 3.11+
+streamlit
+gtts
+deep-translator
 
----
 
 ## 📁 Project Structure
 
