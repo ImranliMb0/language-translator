@@ -37,6 +37,7 @@ Language barriers can create communication gaps, limit access to information, an
 ## 📸 Screenshots
 
 ![Screenshot of Translator App]![image](https://github.com/user-attachments/assets/a96c15a4-4d47-4eef-b46f-921e20d4909f)
+![image](https://github.com/user-attachments/assets/23a81c34-8a99-4caf-8941-d6878723442e)
 
 )
 
