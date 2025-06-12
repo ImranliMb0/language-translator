@@ -1,4 +1,4 @@
-from googletrans import Translator
+from deep_translator import GoogleTranslator
 from gtts import gTTS
 import streamlit as st
 from io import BytesIO
@@ -9,9 +9,6 @@ st.set_page_config(page_title="Multilingual Translator", page_icon="🌍")
 
 # Title
 st.title("🌍 Multilingual Text Translator with Audio")
-
-# Initialize translator
-translator = Translator()
 
 # Language dictionary
 languages = {
@@ -34,7 +31,6 @@ languages = {
     "Portuguese": "pt",
     "Bengali": "bn",
     "Malayalam": "ml",
-    # Add more if needed
 }
 
 # Layout
@@ -54,9 +50,8 @@ if st.button("🔄 Translate and Generate Audio") and text:
         src = languages[src_lang]
         tgt = languages[tgt_lang]
 
-        # Translate
-        translation = translator.translate(text, src=src, dest=tgt)
-        translated_text = translation.text
+        # Translate using deep_translator
+        translated_text = GoogleTranslator(source=src, target=tgt).translate(text)
         st.success("✅ Translation successful!")
 
         st.markdown("**Translated Text:**")
