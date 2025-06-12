@@ -7,7 +7,7 @@ A simple and powerful web app to translate text into 100+ languages and hear it 
 
 ## 🚀 Live Demo
 
-👉 [Try the App]([https://your-app-name.streamlit.app](https://language-translator-imr.streamlit.app/))
+👉 [Try the App]((https://language-translator-imr.streamlit.app/))
 
 *(Replace with your actual Streamlit Cloud URL)*
 
